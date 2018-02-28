@@ -2,12 +2,13 @@
 html {
   font-size: 18px;
   background-color: white;
-  font-family: Helvetica, sans-serif;
+  font-family: "Helvetica" , sans-serif;
   display: block;
 }
 
 body {
   margin: 0;
+  line-height: 1.4;
 }
 
 h1 {
@@ -16,25 +17,28 @@ h1 {
   margin: .67em 0;
 }
 
+.container {
+  margin: auto;
+  max-width: 960px;
+}
+
+.flex {
+  display: flex;
+}
+
   /* Header & Navigation */
   header {
     background: url("../glasses-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 30rem;
+    padding-top: 1rem;
   }
 
-.container {
-  margin: auto;
-  max-width: 960px;
-}
 
 header .flex {
   justify-content: flex-end;
-}
-
-.flex {
-  display: flex;
 }
 
 .main-banner {
