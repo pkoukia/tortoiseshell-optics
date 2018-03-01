@@ -3,18 +3,10 @@ html {
   font-size: 18px;
   background-color: white;
   font-family: "Helvetica" , sans-serif;
-  display: block;
 }
 
 body {
-  margin: 0;
   line-height: 1.4;
-}
-
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  line-height: 1.2;
 }
 
 .container {
@@ -69,22 +61,23 @@ nav img {
   margin-right: 1rem;
 }
 
-img {
-  border-style: none;
-}
-
-ul {
-  margin-right: 1rem;
-  display: block;
-}
-
-ul li {
+nav li {
   display: inline;
   padding: 0 1rem;
 }
 
+nav ul {
+  margin-right: 1rem;
+}
+
 .truncated-menu {
   display: none;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
 }
 
 @media only screen and (max-width: 1024px) {
